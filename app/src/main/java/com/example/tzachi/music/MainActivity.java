@@ -31,7 +31,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
-import android.net.ProxyInfo;
+
 
 import java.util.Date;
 
@@ -263,7 +263,7 @@ public class MainActivity extends ActionBarActivity {
     {
 //        final Button button = buttons[2]; // replace with a button from your own UI
         BroadcastReceiver receiver = new BroadcastReceiver() {
-            @Override public void onReceive( Context context, Intent _ )
+            @Override public void onReceive( Context context, Intent I_ )
             {
                 Log.e("tag", "On recieve called");
                 button.setBackgroundColor( Color.RED );
